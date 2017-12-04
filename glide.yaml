@@ -1,0 +1,21 @@
+package: github.com/JohannWeging/junction
+import:
+- package: github.com/codeskyblue/go-sh
+  version: ^0.2.0
+- package: github.com/hashicorp/consul
+  version: ^1.0.1
+  subpackages:
+  - api
+- package: github.com/pkg/errors
+  version: ^0.8.0
+- package: github.com/sirupsen/logrus
+  version: ^1.0.3
+- package: github.com/spf13/pflag
+  version: ^1.0.0
+- package: github.com/spf13/viper
+  version: ^1.0.0
+- package: github.com/moby/moby
+  version: 17.4.0-ce
+  subpackages:
+  - client
+  - api/types
